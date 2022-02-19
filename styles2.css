@@ -1,0 +1,40 @@
+body {
+    background-color: #1f2022;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: whitesmoke;
+}
+
+.tothemoon {
+    max-width: 100%;
+    max-height: 120%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+    right: 0;
+    top: 0; 
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
